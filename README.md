@@ -1,3 +1,7 @@
+This repository is an example of using GitHub Actions to build and deploy a static application (such as an Angular or Vue.js app) onto App Service Linux. The GitHub Workflow file builds and deploys the app using the web app's Publish Profile. Make sure the web app's runtime is set to **PHP**. (Since this is a static app, Node is not the runtime we want. The PHP runtime will serve the app as static content, which is what we want.)
+
+----
+
 # Demoappservice
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
