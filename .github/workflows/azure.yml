@@ -32,4 +32,4 @@ jobs:
         app-name: 'jafreebe-angular-test'
         slot-name: 'production'
         publish-profile: ${{AZURE_WEBAPP_PUBLISH_PROFILE}}
-        package: .
+        package: dist/
